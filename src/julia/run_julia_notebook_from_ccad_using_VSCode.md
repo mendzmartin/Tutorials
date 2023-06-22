@@ -26,7 +26,7 @@ For more information check: [https://linuxize.com/post/using-the-ssh-config-file
 La configuración anterior nos permite prescindir del script `.bash_aliases` y poder loguearnos al servidor de jupyter de CCAD corriendo el comando `@prompt$ ssh jupyterCCAD`
 
 
-Ahora bien, debemos abrir VSCode (consultar aquí en caso de no tenerlo instalado) e instalar ((Ctrl+Shift+X)) las extenciones *Remote - SSH*. Luego abriendo la paleta de comandos (`Ctrl+Shift+P`) buscamos la opción `Remote-SSH: Connect to Host...` y seleccionamos el host `jupyterCCAD` que debería aparecernos en la lista desplegable.
+Ahora bien, debemos abrir VSCode (consultar [aquí](https://github.com/mendzmartin/Tutorials/blob/main/src/vscode/VSCode_installation.md) en caso de no tenerlo instalado) e instalar ((Ctrl+Shift+X)) las extenciones *Remote - SSH*. Luego abriendo la paleta de comandos (`Ctrl+Shift+P`) buscamos la opción `Remote-SSH: Connect to Host...` y seleccionamos el host `jupyterCCAD` que debería aparecernos en la lista desplegable.
 
 Luego de esto, se nos abrirá una nueva sesión de VSCode y ya estaremos dentro del nodo de jupyter de CCAD para poder abrir cualquier archivo.
 

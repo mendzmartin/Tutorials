@@ -59,7 +59,7 @@ alias jupyterCCAD='ssh user@jupyter.ccad.unc.edu.ar'
 alias nodejupyterCCAD='ssh -L 8082:localhost:8082 user@jupyter.ccad.unc.edu.ar'
 ```
 
-+ Una vez en el cluster bajamos la última versión de Julia. (si no tenemos instalado o actualizado Julia podemos consultar el tutorial aquí).
++ Una vez en el cluster bajamos la última versión de Julia. (si no tenemos instalado o actualizado Julia podemos consultar el tutorial [aquí](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/Julia_installation.md)).
 
 + Luego, en el nodo de JupyterCCAD abrimos una terminal de Julia e instala los paquetes necesarios. En  particular, el paquete IJulia haciendo
 ```julia
