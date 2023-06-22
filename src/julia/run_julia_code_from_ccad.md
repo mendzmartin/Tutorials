@@ -39,7 +39,7 @@ _       _ _(_)_     |  Documentation: https://docs.julialang.org
 
 Sin embargo, para poder correr julia simplemente ejecutando `@propt$ julia` desde cualquier ubicación dentro de CCAD debemos setear las variables de entorno según su ubicación específica dentro de CCAD como sigue:
 
-+ Abrimos el uno de los script de Bash para definir las configuraciones del sistema ejecutando `[user@serafin ~]$ vi .bash_profile` y agregamos la siguiente linea dentro del script `export PATH="$PATH:/home/martinmendez/julia-1.9.1/bin"`. Luego, para que se hagan efectivos los cambios debemos cerrar la sesión de CCAD e ingresar nuevamente. Luego podemos abrir el REPL de julia simplemente ejecutando desde cualquier ubicación lo siguiente:
++ Abrimos el uno de los script de Bash para definir las configuraciones del sistema ejecutando `[user@serafin ~]$ vi .bash_profile` y agregamos la siguiente linea dentro del script `export PATH="$PATH:~/julia-1.9.1/bin"`. Luego, para que se hagan efectivos los cambios debemos cerrar la sesión de CCAD e ingresar nuevamente. Luego podemos abrir el REPL de julia simplemente ejecutando desde cualquier ubicación lo siguiente:
 ```
     @[user@serafin ~]$ julia
     
