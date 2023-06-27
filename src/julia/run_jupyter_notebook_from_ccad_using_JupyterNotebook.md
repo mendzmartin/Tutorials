@@ -53,7 +53,7 @@ y en un buscador pegar los siguiente `localhost:1234/?token=...` (con varios use
 
 # Opción 2
 
-+ Definir aliases en el .bashrc de tu maquina de escritorio. Te muestro los mios como ejemplo. El primero es para conectarse de la manera usual (lanzar scripts con sbatch, etc). El segundo es para conectarse para usar notebooks. Fijate que el comando especifica dos numeros de puertos. Vos proba con 8080. Uno especifica el puerto de comunicaciones que va a usar el cluster jupyterCCAD, y el otro el puerto que va a usar tu maquina.
++ Definir dos aliases en el ".bashrc" de nuestra CPU uno para conectarse de la manera usual y el segundo para conectarse usando notebooks. Notemos que el segundo alias requiere especificar dos numeros de puertos, uno especifica el puerto de comunicaciones que va a usar el cluster jupyterCCAD, y el otro el puerto que va a usar nuestra CPU.
 ```bash
 alias jupyterCCAD='ssh user@jupyter.ccad.unc.edu.ar'
 alias nodejupyterCCAD='ssh -L 8082:localhost:8082 user@jupyter.ccad.unc.edu.ar'
@@ -61,7 +61,7 @@ alias nodejupyterCCAD='ssh -L 8082:localhost:8082 user@jupyter.ccad.unc.edu.ar'
 
 + Una vez en el cluster bajamos la última versión de Julia. (si no tenemos instalado o actualizado Julia podemos consultar el tutorial [aquí](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/Julia_installation.md)).
 
-+ Luego, en el nodo de JupyterCCAD abrimos una terminal de Julia e instala los paquetes necesarios. En  particular, el paquete IJulia haciendo
++ Luego, en el nodo de JupyterCCAD abrimos una terminal de Julia e instalamos los paquetes necesarios. En  particular, el paquete IJulia haciendo
 ```julia
     @[user@jupyterCCAD ~]$ julia
     
@@ -76,8 +76,8 @@ _       _ _(_)_     |  Documentation: https://docs.julialang.org
     julia> using Pkg; Pkg.add("IJulia")
     julia> using IJulia; notebook(dir=pwd())
 ```
-Probablemente cuando intentemos abrir una notebook en el cluster jupyterCCAD con el ùltimo comando nos pida instalar Jupyter y lo hacemos.
+Probablemente cuando intentemos abrir una notebook en el cluster jupyterCCAD con el último comando nos pida instalar `Jupyter` y lo hacemos.
 
-+ Una vez instalado el jupyter en el cluster jupyterCCAD, agregamos el siguiente alias al script `.bashrc` del cluster jupyterCCAD: `alias jnnb='~/.julia/conda/3/bin/jupyter notebook --no-browser --port=8082'`. Esto sirve para iniciar el jupyter que instala Julia en formato "no browser". 
++ Una vez instalado el Jupyter en el cluster jupyterCCAD, agregamos el siguiente alias al script `.bashrc` del cluster jupyterCCAD: `alias jnnb='~/.julia/conda/3/bin/jupyter notebook --no-browser --port=8082'`. Esto sirve para iniciar el jupyter que instala Julia en formato "no browser". 
 
-+ Finalmente, tipeamos el alias en la terminal de bash del cluster jupyterCCAD para que levante un kernel de Jupyter con julia en modo "no browser". Esto deberia arrojarnos un link que debemos copiar y pegar en el browser de nuestra PC local, y de esta manera estaríamos conectàndonos con nuestro browser a la instancia de jupyter que levantamos en el cluster jupyterCCAD.
++ Finalmente, tipeamos el alias en la terminal de bash del cluster jupyterCCAD para que levante un kernel de Jupyter con julia en modo "no browser". Esto deberia arrojarnos un link que debemos copiar y pegar en el browser de nuestra CPU local, y de esta manera estaríamos conectàndonos con nuestro browser a la instancia de jupyter que levantamos en el cluster jupyterCCAD.
