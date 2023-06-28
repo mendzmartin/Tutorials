@@ -1,11 +1,14 @@
 # Opción 1
+
+> From [https://gitlab.com/-/snippets/2527216](https://gitlab.com/-/snippets/2527216)
+
 Una vez que recibimos el alta de la cuenta seguir los siguientes pasos:
 
 + Primero debemos conectarnos al servidor `@prompt$ ssh <user>@jupyter.ccad.unc.edu.ar`
 
-+ Luego, instalamos micromamba `@[user@jupyterCCAD ~]$ curl micro.mamba.pm/install.sh | bash`, y verificamos que está instalando corriendo `@[user@jupyterCCAD ~]$ micromamba env list` que debería listar el entorno base. Si no encuentra `@[user@jupyterCCAD ~]$ micromamaba` salir y vover a conectarse al servidor.
++ Luego, instalamos micromamba (similar a conda pero más eficient al estar escrito en C++ en lugar de Python) `@[user@jupyterCCAD ~]$ curl micro.mamba.pm/install.sh | bash`, y verificamos que está instalando corriendo `@[user@jupyterCCAD ~]$ micromamba env list` que debería listar el entorno base. Si no encuentra `micromamaba` salir y vover a conectarse al servidor.
 
-+ Ahora, debemos instalar Jupyter Lab en el entrno BASE con:
++ Ahora, debemos instalar Jupyter Lab en el entorno BASE con:
 ```bash
   @[user@jupyterCCAD ~]$ micromamba activate base
   @[user@jupyterCCAD ~]$ micromamba install -c conda-forge jupyterlab pip
@@ -43,7 +46,7 @@ Lo anterior puede hacerce dentro de screen o tmux tambien.
 ```bash
   @prompt$ ssh -NL 1234:localhost:8888 <user>@jupyter.ccad.unc.edu.ar
 ```
-y en un buscador pegar los siguiente `localhost:1234/?token=...` (con varios users hay que usar ${UID} como port ( en vez de 8888) o ver que hacemos).
+y en un buscador pegar lo siguiente `localhost:1234/?token=...` (con varios users hay que usar ${UID} como port ( en vez de 8888) o ver que hacemos).
 
 + Actualizar un entorno es algo analogo al comando de mamba que sería (ver micromamba):
 ```
