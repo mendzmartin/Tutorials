@@ -12,7 +12,7 @@
 + ### 2.1. [Julia intallation](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/julia_installation.md)
 + ### 2.2. [Runnig Julia code with SLURM from cluster](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/run_julia_code_from_ccad.md)
 + ### 2.3. [Running Julia Notebook with VSCode from cluster](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/run_julia_notebook_from_ccad_using_VSCode.md)
-+ ### 2.4. [Running Julia Notebook with Jupyter Notebook from cluster](run_jupyter_notebook_from_ccad_using_JupyterNotebook)
++ ### 2.4. [Running Julia Notebook with Jupyter Notebook from cluster](https://github.com/mendzmartin/Tutorials/blob/main/src/vscode/run_jupyter_notebook_from_ccad_using_JupyterNotebook.md)
 + ### 2.5. [Multi-Threads VSCode activation](https://github.com/mendzmartin/Tutorials/blob/main/src/vscode/multithreading_activation_VSCode.md)
 ## 3. [Git](https://github.com/mendzmartin/Tutorials/tree/main/src/git)
 + ### 3.1. [Useful commands and tools](https://github.com/mendzmartin/Tutorials/blob/main/src/git/useful_git_commands.md)
