@@ -1,6 +1,6 @@
 # Tutorials
 
-> This repository contains several tutorials on different software topics with the intention of containing organized information in one place. 
+> This repository contains several tutorials on different software topics with the intention of containing organized information in only one place. 
 
 -----
 
@@ -8,6 +8,7 @@
 ## 1. [Linux](https://github.com/mendzmartin/Tutorials/tree/main/src/linux)
 + ### 1.1. [Useful commands and tools](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/useful_commands_and_tools.md)
 + ### 1.2. [Two CPUs LAN connection](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/lan_connection_twocpus.md)
++ ### 1.2. [OpenSSH](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/OpenSSH.md)
 ## 2. [Julia](https://github.com/mendzmartin/Tutorials/tree/main/src/julia)
 + ### 2.1. [Julia intallation](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/julia_installation.md)
 + ### 2.2. [Runnig Julia code with SLURM from cluster](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/run_julia_code_from_ccad.md)
@@ -25,3 +26,6 @@
 + ### 5.1. [VSCode installation](https://github.com/mendzmartin/Tutorials/blob/main/src/vscode/VSCode_installation.md)
 + ### 5.2. [Multi-Threads activation](https://github.com/mendzmartin/Tutorials/blob/main/src/vscode/multithreading_activation_VSCode.md)
 + ### 5.3. [Running Julia Notebook with VSCode from cluster](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/run_julia_notebook_from_ccad_using_VSCode.md)
+## 6. [FileZilla](https://github.com/mendzmartin/Tutorials/tree/main/src/filezilla)
++ ### 6.1. [FileZilla installation](https://github.com/mendzmartin/Tutorials/blob/main/src/vscode/FileZilla_installation.md)
++ ### 6.2. [Using SSH agent for sync](https://github.com/mendzmartin/Tutorials/blob/main/src/vscode/FileZilla_ssh_sync.md)
