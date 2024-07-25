@@ -17,8 +17,10 @@ The best tool I know for that is LiveServer and its servedocs() function. Just d
 ```julia
     julia> using Pkg
     julia> Pkg.activate("docs")
+    julia> Pkg.add("LiveServer")
     julia> Pkg.add("Documenter")
     julia> Pkg.develop(path="../MyPackage.jl")
+    julia> using LiveServer
     julia> servedocs()
 └ @ Documenter ~/.julia/packages/Documenter/qoyeC/src/deployconfig.jl:76
 ✓ LiveServer listening on http://localhost:8000/ ...
