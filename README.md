@@ -9,6 +9,7 @@
 + ### 1.1. [Useful commands and tools](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/useful_commands_and_tools.md)
 + ### 1.2. [Two CPUs LAN connection](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/lan_connection_twocpus.md)
 + ### 1.2. [OpenSSH](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/OpenSSH.md)
++ ### 1.3. [Installing SO from bootable USB](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/intalando_ubuntu.md)
 ## 2. [Julia](https://github.com/mendzmartin/Tutorials/tree/main/src/julia)
 + ### 2.1. [Julia intallation](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/julia_installation.md)
 + ### 2.2. [Runnig Julia code with SLURM from cluster](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/run_julia_code_from_ccad.md)
