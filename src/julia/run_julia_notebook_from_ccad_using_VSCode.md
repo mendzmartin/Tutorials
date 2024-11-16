@@ -31,3 +31,13 @@ Ahora bien, debemos abrir VSCode (consultar [aquí](https://github.com/mendzmart
 Luego de esto, se nos abrirá una nueva sesión de VSCode y ya estaremos dentro del nodo de jupyter de CCAD para poder abrir cualquier archivo.
 
 Para poder correr un notebook previamente creado debemos intalar (Ctrl+Shift+X) en `SSH:jupyterCCAD` las extensiones *Jupyter* y *Julia*. Luego de esto al abrir un notebook de Julia VSCode detectará automáticamente el kernel de julia (siempre que hayamos instalado julia dentro del nodo jupyterCCAD).
+
+# Configure the Jupyter kernel
+
+Para poder hacer visible el kernel de Julia para Jupyter es necesario instalar el paquete `IJulia`. Para ello, debemos abrir julia y ejecutar los siguientes comandos:
+```julia
+    julia> using Pkg
+    julia> Pkg.add("IJulia")
+```
+
+Luego de esto, al abrir un notebook de Julia en VSCode deberíamos poder seleccionar el kernel de Julia en la parte superior derecha del notebook.
