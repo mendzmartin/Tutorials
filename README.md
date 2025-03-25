@@ -11,6 +11,7 @@
 + ### 1.2. [OpenSSH](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/OpenSSH.md)
 + ### 1.3. [Installing SO from bootable USB](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/intalando_ubuntu.md)
 + ### 1.4. [Mounting hard disk](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/mount_hard_disk.md)
++ ### 1.5. [Using Dropbox by termnal](https://github.com/mendzmartin/Tutorials/blob/main/src/linux/dropbox.md)
 ## 2. [Julia](https://github.com/mendzmartin/Tutorials/tree/main/src/julia)
 + ### 2.1. [Julia intallation](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/julia_installation.md)
 + ### 2.2. [Runnig Julia code with SLURM from cluster](https://github.com/mendzmartin/Tutorials/blob/main/src/julia/run_julia_code_from_ccad.md)
