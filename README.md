@@ -67,7 +67,7 @@
 - [2.2 Running Julia with SLURM](src/julia/run_julia_code_from_ccad.md)
 - [2.3 VSCode Notebooks on Cluster](src/julia/run_julia_notebook_from_ccad_using_VSCode.md)
 - [2.4 Jupyter Notebooks on Cluster](src/julia/run_jupyter_notebook_from_ccad_using_JupyterNotebook.md)
-- [2.5 Multi-Threading in VSCode](src/vscode/multithreading_activation_VSCode.md)
++- [2.5 Multi-Threading in VSCode](src/vscode/multithreading_activation_VSCode.md)
 - [2.6 Creating Packages](src/julia/new_package.md)
 - [2.7 Development Workflows](src/julia/workflow.md)
 - [2.8 Documentation Deployment](src/julia/publish_docs.md)
@@ -86,7 +86,7 @@
 - [5.2 Multi-Threading Setup](src/vscode/multithreading_activation_VSCode.md)
 - [5.3 Cluster Notebooks](src/julia/run_julia_notebook_from_ccad_using_VSCode.md)
 - [5.4 Updating VSCode](src/vscode/VSCode_update.md)
-- [5.5 Remote Tunnels](src/julia/Remote_Tunnels.md)
+- [5.5 Remote Tunnels](src/vscode/Remote_Tunnels.md)
 
 ## 📁 FileZilla
 - [6.1 Installation Guide](src/vscode/FileZilla_installation.md)
