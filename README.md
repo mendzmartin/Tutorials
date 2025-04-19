@@ -40,6 +40,7 @@
 ## ⚛️ MCTDH
 - [4.1 Command Reference](src/mctdh/useful_commands.md)
 - [4.2 Libpthread Bug Report](src/mctdh/libpthread_problem.md)
+- [4.3 fmat Bug Report](src/mctdh/fmat_problem.md)
 
 ## 💻 VSCode
 - [5.1 Installation Guide](src/vscode/VSCode_installation.md)

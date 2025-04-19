@@ -1,6 +1,6 @@
 # Problemas con MCTDH y cómo solucionarlos
 
-> Reporte por: Méndez Martín
+> Reporte por: Mendez Martin
 
 ## Problem
 Al momento de instalar y compilar MCTDH haciendo
@@ -94,7 +94,7 @@ donde hemos restringido la busqueda a sólo a la palabra `pthread.h` en los codi
 		***********************************************************************/
 ```
 
-Como vemos se trata de una rutina dummy tal que se ejectua cuando el paquete mctdhXX no encuentra la libreria `pthread.h` o `semaphore.h`. Una forma de solucionar el problema original fue comentar todos los bloques de código del programa fuente `DEF_thread.c` de tal forma de que se cree la función `def_thread_dummyfunction()` pero sin ninguna información. De esta forma los punteros de las funciones que aparecen `DEF_thread.c` (y que se comentarán) no recibirán ningun puntero y no arrojarán ningun mensaje de erro. La hipótesis de todos esto sería que al momento de compilar el paquete mctdhXX este no haga ningun tratamiento especial a los errores de linkeo de la librería `pthread` y luego, al ejecutar el código binario `mctdhXX` el sistema operativo se encargue de hacer los linkeos correspondientes a la librería.
+Como vemos se trata de una rutina dummy tal que se ejectua cuando el paquete mctdhXX no encuentra la libreria `pthread.h` o `semaphore.h`. Una forma de solucionar el problema original fue comentar todos los bloques de código del programa fuente `DEF_thread.c` de tal forma de que se cree la función `def_thread_dummyfunction()` pero sin ninguna información. De esta forma los punteros de las funciones que aparecen `DEF_thread.c` (y que se comentarán) no recibirán ningun puntero y no arrojarán ningun mensaje de error. La hipótesis de todos esto sería que al momento de compilar el paquete mctdhXX este no haga ningun tratamiento especial a los errores de linkeo de la librería `pthread` y luego, al ejecutar el código binario `mctdhXX` el sistema operativo se encargue de hacer los linkeos correspondientes a la librería.
 
 El programa `DEF_thread.c` quedaría entonces de la forma:
 
