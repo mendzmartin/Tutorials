@@ -5,12 +5,14 @@
 ---
 
 ## 📋 Table of Contents
-1. [🐧 Linux](#-linux)
-2. [🌀 Julia](#-julia)
-3. [🔄 Git](#-git)
-4. [⚛️ MCTDH](#️-mctdh)
-5. [💻 VSCode](#-vscode)
-6. [📁 FileZilla](#-filezilla)
+- [📚 Tutorials Repository](#-tutorials-repository)
+  - [📋 Table of Contents](#-table-of-contents)
+  - [🐧 Linux](#-linux)
+  - [🌀 Julia](#-julia)
+  - [🔄 Git](#-git)
+  - [⚛️ MCTDH](#️-mctdh)
+  - [💻 VSCode](#-vscode)
+  - [📁 FileZilla](#-filezilla)
 
 ---
 
@@ -48,6 +50,7 @@
 - [5.3 Cluster Notebooks](src/julia/run_julia_notebook_from_ccad_using_VSCode.md)
 - [5.4 Updating VSCode](src/vscode/VSCode_update.md)
 - [5.5 Remote Tunnels](src/vscode/Remote_Tunnels.md)
+- [5.6 Markdown Snippets in VS Code using Linux](src/vscode/makdown_snippets.md)
 
 ## 📁 FileZilla
 - [6.1 Installation Guide](src/vscode/FileZilla_installation.md)
