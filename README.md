@@ -24,6 +24,7 @@
 - [1.4 Installing OS from Bootable USB](src/linux/intalando_ubuntu.md)
 - [1.5 Mounting Hard Disk](src/linux/mount_hard_disk.md)
 - [1.6 Using Dropbox via Terminal](src/linux/dropbox.md)
+- [1.7 Nvidia installation and setting guide](src/linux/nvidia_guide.md)
 
 ## 🌀 Julia
 - [1.1 Installation Guide](src/julia/julia_installation.md)
