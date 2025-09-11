@@ -53,6 +53,7 @@
 - [1.4 Updating VSCode](src/vscode/VSCode_update.md)
 - [1.5 Remote Tunnels](src/vscode/Remote_Tunnels.md)
 - [1.6 Markdown Snippets in VS Code using Linux](src/vscode/makdown_snippets.md)
+- [1.7 LaTeX Workshop Extension](src/vscode/latex_workshop_extension.md)
 
 ## 📁 FileZilla
 - [1.1 Installation Guide](src/filezilla/FileZilla_installation.md)
