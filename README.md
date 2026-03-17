@@ -26,6 +26,8 @@
 - [1.6 Using Dropbox via Terminal](src/linux/dropbox.md)
 - [1.7 Nvidia installation and setting guide](src/linux/nvidia_guide.md)
 - [1.8 Disk space troubleshooting](src/linux/linux_disk_space_troubleshooting.md)
+- [1.9 Fixing WiFi on ASUS VivoBook with MT7902](src/linux/ubuntu_mt7902_wifi_fix.md)
+- [1.10 Fixing VMD initramfs error](src/linux/ubuntu_vmd_initramfs_fix.md)
 
 ## 🌀 Julia
 - [1.1 Installation Guide](src/julia/julia_installation.md)
