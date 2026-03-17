@@ -38,6 +38,7 @@
 - [1.6 Creating Packages](src/julia/new_package.md)
 - [1.7 Development Workflows](src/julia/workflow.md)
 - [1.8 Documentation Deployment](src/julia/publish_docs.md)
+- [1.9 JupyterHub on CCAD](src/julia/jupyterhub_ccad.md)
 
 ## 🔄 Git
 - [1.1 Essential Commands](src/git/useful_git_commands.md)
