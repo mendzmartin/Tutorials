@@ -20,13 +20,48 @@ Luego, conectate desde la terminal:
 ssh jupyterhubCCAD
 ```
 
+Esto nos reestablecerá la contraseña de acceso a JupyterHub, mostrandonos algo como
+
+```bash
+username@prompt:~$ ssh jupyterhubCCAD 
+╭──────────────────────────╮
+│  Restablecer contraseña  │
+╰──────────────────────────╯
+PTY allocation request failed on channel 2
+Su contraseña ha sido reestablecida.
+  Usuario: tu_usuario_ccad
+  Contraseña: 7ViCsCFX...
+
+Connection to jupyterhub.ccad.unc.edu.ar closed.
+```
+
+
 ## 2\. Acceso a la Plataforma
+
+### 2.1\. Ingreso vía buscador web
 
 1.  Entrá a [https://jupyterhub.ccad.unc.edu.ar/](https://jupyterhub.ccad.unc.edu.ar/) e iniciá sesión.
 2.  En **Server Options**, seleccioná el recurso según tu necesidad:
       * **Boogie:** Ideal para edición y cómputo general (AMD EPYC).
       * **Gordito:** Para tareas pesadas que requieran GPUs NVIDIA A30.
 3.  Hacé clic en **Start**.
+
+### 2.2\. Ingreso vía VSCode
+    
+1.  Abrí VS Code.
+2.  Instalá (si falta) las extensiones Python y Jupyter.
+3.  Abrí o creá un notebook .ipynb.
+4.  Presioná Ctrl+Shift+P para abrir la paleta de comandos.
+5.  Escribí Jupyter: Specify Jupyter Server for Connections.
+6.  Elegí Existing.
+7.  Pegá la URL de tu hub: https://jupyterhub.ccad.unc.edu.ar
+8.  Iniciá sesión cuando lo pida.
+
+Otra forma (desde el notebook):
+1.  En la esquina superior derecha, hacé clic en Select Kernel.
+2.  Elegí Existing Jupyter Server.
+3.  Pegá la URL y autenticá.
+
 
 ## 3\. Instalación de Julia en el Cluster
 
